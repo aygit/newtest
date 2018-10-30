@@ -7,7 +7,7 @@ pool:
   vmImage: 'macOS 10.13'
 
 steps:
-- task: Xcode@5
+- task: ios/market.xcodeproj
   inputs:
     scheme: ''
     sdk: 'iphoneos'
